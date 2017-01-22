@@ -5,7 +5,7 @@
   "main": "window.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./node-modules/.bin/electron-rebuild -v $(electron -v)"
+    "fix-electron": "./node_modules/.bin/electron-rebuild -v $(electron -v)"
   },
   "repository": {
     "type": "git",
