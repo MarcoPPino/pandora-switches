@@ -1,7 +1,7 @@
 {
   "name": "pandora-switches",
   "version": "1.0.0",
-  "description": "\"Follow the white rabbit Neo.. 😎\"",
+  "description": "Follow the white rabbit Neo.. 😎",
   "main": "window.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/leoweigand/pandora-switches/issues"
   },
-  "homepage": "https://github.com/leoweigand/pandora-switches#readme"
+  "homepage": "https://github.com/leoweigand/pandora-switches#readme",
+  "dependencies": {
+    "electron-rebuild": "^1.5.7",
+    "johnny-five": "^0.10.6"
+  }
 }

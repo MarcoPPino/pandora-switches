@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+}
+
+canvas{
+	position: absolute;
+}
+
+#switches{
+	width: 300px;
+}
+.switch{
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: #eee;
+}
+.switch.active{
+	background: #f00;
+}
